@@ -5,8 +5,7 @@
 int main()
 {
     int m[V][V]={{0}};
-    int i, j; 
-
+    int i, j;
 
     printf("  Matriz Identidade \n\n");
 
