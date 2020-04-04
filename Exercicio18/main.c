@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
+//essa função cacula a enésima potência de uma variável
+
 int calcular_pot(int x, int n){
     int resultado;
 
@@ -18,10 +20,10 @@ int main()
     printf("\nEntre com o valor de x: ");
     scanf("%d",&n1);
 
-    printf("\nEntre com o valor dde n: ");
+    printf("\nEntre com o valor de n: ");
     scanf("%d",&n2);
 
-    printf("o resuldado e: %d\n", calcular_pot(n1,n2));
+    printf("\n O resuldado e: %d\n", calcular_pot(n1,n2));
 
     return 0;
 }

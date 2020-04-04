@@ -7,6 +7,9 @@ int main()
     int i, impar=0, par=0;
     int vetor[V];
 
+    printf("Vamos entar com 5 elementos e no final apresentar: a soma dos valores pares, a soma dos impares\n"
+           "a soma do total e a porcentagem de numeros impares em relacao aos pares\n\n");
+
     for (i=0; i<V; i++){
         printf("Entre com um numero: ");
         scanf("%d", &vetor[i]);
@@ -18,8 +21,8 @@ int main()
                 impar = impar + vetor[i];
             }
         }
-    printf(" total dos valores pares = %d \n total dos valores impares = %d \n",par, impar);
-    printf(" valor total de par + impar = %d \n porcentagem de impar %d %%", (par+impar), (impar*100)/100);
+    printf("\nTotal dos valores pares = %d \n\n total dos valores impares = %d \n",par, impar);
+    printf("\nvalor total de par + impar = %d \n\n porcentagem de impar %d %%\n\n", (par+impar), (impar*100)/100);
 
     return 0;
 }

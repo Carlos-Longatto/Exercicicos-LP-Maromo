@@ -11,24 +11,25 @@ int main()
 
     for (i=0; i < L; i++){
               for (j=0; j < C; j++){
-        printf("Digite os valores da matriz a: ");
+        printf("\nDigite os valores da matriz a: ");
         scanf("%d", &mata[i][j]);
             }
     }
 
     for (i=0; i < L; i++){
               for (j=0; j < C; j++){
-        printf("Digite os valores da matriz b: ");
+        printf("\nDigite os valores da matriz b: ");
         scanf("%d", &matb[i][j]);
             }
     }
+    printf("\n\nA soma da matriz a com a b digitagas gera essa matriz c: \n");
     for (i=0; i < L; i++){
               for (j=0; j < C; j++){
-              matc[i][j] = mata[i][j] + matb[i][j];
-              printf(" %d ", matc[i][j]);
+                    matc[i][j]=mata[i][j] + matb[i][j];
+                    printf("[ %d ]",matc[i][j]);
               }
             printf("\n");
-
     }
+
     return 0;
 }
